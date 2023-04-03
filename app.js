@@ -13,8 +13,8 @@ app.use(express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => {
   res.render("real-estate");
 });
-// app.get("/", (req, res) => {
-//   res.render("car");
-// });
+app.get("/car-rental", (req, res) => {
+  res.render("car");
+});
 
 module.exports = app;
