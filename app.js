@@ -16,5 +16,8 @@ app.get("/", (req, res) => {
 app.get("/shop", (req, res) => {
   res.render("shop");
 });
+app.get("/blogs", (req, res) => {
+  res.render("blogs");
+});
 
 module.exports = app;
